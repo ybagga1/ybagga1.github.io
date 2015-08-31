@@ -2,13 +2,17 @@
   <html>
   <html lang = "en">
   <head>
+    <!-- Within the header, I set the title of my site below -->
+
     <title> Yayati's Website </title>
+    <!-- This is the links required for bootstrap to work and appears on all pages. -->
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- This is my own custom css -->
     <link rel="stylesheet" type="text/css" href="custom.css">
 
     <!-- Latest compiled and minified JavaScript -->
@@ -16,26 +20,33 @@
   </head>
 
   <body>
+    <!-- We have a class for the header, as I wanted to make it fixed and for the content to be scrollable -->
     <div class = "header-content">
      <div class = "container">
       <div class="row">
+        <!-- We use bootstrap's grid system to first define 4 spaces of blank (out of 12), so we can center our image -->
         <div class = "col-md-4 col-sm-4 col-xs-4"> </div>
+        <!-- We have our main picture centered on the page, so it goes into these 4 columns --> 
         <div class = "col-md-4 col-sm-4 col-xs-4">
+          <!-- The main image class provides padding and width to the pic -->
           <div class = "main-image">
            <img src="profile_pic.jpg" class = "img-responsive img-circle center-block">
          </div>
        </div>
        <div class = "col-md-4 col-sm-4 col-xs-4"> </div>
      </div>
+     <!-- We now are under the main picture --> 
      <div class="row">
         <div class = "col-md-4 col-sm-4 col-xs-4"> </div>
         <div class = "col-md-4 col-sm-4 col-xs-4">
-          <div class = "main-image">
+          <div class = "main-image"> 
+            <!-- Setting my name as the logo -->
            <img src="Untitled-3.jpg" class = "img-responsive img-circle center-block">
          </div>
        </div>
        <div class = "col-md-4 col-sm-4 col-xs-4"> </div>
      </div>
+     <!-- These are the links, still within the container --> 
       <center><p style = "font-family:Muli"><a href = "aboutpage.html"><font size = "3">ABOUT</font></a> &nbsp &nbsp &nbsp &nbsp <a href = "experiencepage.html"> <font size = "3">EXPERIENCE</font> </a> &nbsp &nbsp &nbsp &nbsp <a href = "contactpage.html"> <font size = "3">CONTACT</font></a></p> </center>
    </div>
  </div>
