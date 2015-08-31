@@ -1,0 +1,64 @@
+.header-content{
+	position:fixed; top:0px; left:0px; height:680px; right:0px;overflow:hidden; width: 100%;
+	background: #FFFFFF;
+}
+
+.body-content{
+	z-index: -1;
+	overflow:auto;
+	width: 100%;
+	position:absolute;
+	top: 420px;
+}
+
+.main-image {
+	max-width: 100%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+
+}
+.row-height {
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.col-md-4 {
+    border-radius: 15px 0 0 15px;
+}
+
+.col-md-2 {
+    border-radius: 0 15px 15px 0;
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Muli Light'), local('Muli-Light'), url(http://fonts.gstatic.com/s/muli/v7/T-qN9Yh40TTJeenUALkjgg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli'), url(http://fonts.gstatic.com/s/muli/v7/z6c3Zzm51I2zB_Gi7146Bg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Muli Light Italic'), local('Muli-LightItalic'), url(http://fonts.gstatic.com/s/muli/v7/Q5N_zd0042xOVES9NXt9QltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Muli Italic'), local('Muli-Italic'), url(http://fonts.gstatic.com/s/muli/v7/RGzT9VzvdKojoeSA3nPC6Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
